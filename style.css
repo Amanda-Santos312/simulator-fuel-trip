@@ -58,6 +58,11 @@ form {
     font-size: 2rem;
 }
 
+label {
+    font-size: x-large;
+    color: black;
+}
+
 input [type="number"]{
     width: 10px;
     background-color: antiquewhite;
@@ -68,7 +73,6 @@ input [type="number"]{
     box-sizing: content-box;
 }
 
-label {
-    font-size: x-large;
-    color: black;
+h3 {
+    text-align: center;
 }
