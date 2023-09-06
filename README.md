@@ -1,4 +1,4 @@
-# simulator-fuel-trip
+# simulator-fuel-consumption
 >Repositório destinado ao simulador de gasto de combustível em uma viagem.
 
 ### Acesse: 
