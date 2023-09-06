@@ -1,7 +1,6 @@
 body {
     font-family: 'EB Garamond', serif;
     background-color: #f1b0b0;
-    color: black;
     margin: 20px;
     align-items: center;
     justify-content: center;
@@ -15,16 +14,13 @@ header {
 }
 
 img { 
-    width: 450px;
+    width: 400px;
     justify-content: center;
     align-items: center;
-    padding: 15px;
 }
 
 h1 {
-    padding: 10px;
-    font-size: 2rem;
-    text-align: center; /*centraliza o texto*/
+    font-size: 2rem; 
 }
 
 div {
@@ -38,7 +34,7 @@ form {
     align-items: center;
 }
 
-form #entrada {
+#entradas {
     align-items: center;
 }
 
@@ -47,19 +43,20 @@ form #entrada {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
+    align-items: center;
 }
 
 #botoes input {
-    min-width: 300px;
+    max-width: 50%;
     flex: 1;
     height: 40px;
     border-radius: 10px; /*arredonda as bordas*/
-    font-size: 1.9rem;
+    font-size: 1.2rem;
 }
 
 #botoes input:hover {
     background-color: #f1b0b0;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 label {
@@ -69,8 +66,6 @@ label {
 
 input [type="number"]{
     width: 10px;
-    background-color: antiquewhite;
-    color: black;
     border-bottom: 1px;
     box-sizing: content-box;
 }
